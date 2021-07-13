@@ -1,0 +1,15 @@
+*{
+    box-sizing:border-box; /*border-box cambia il modo di calcolare lo spazio quindi colonna da 33% + colonna da 66% + padding non va oltre il 100% ma il padding viene calcolato internamente */
+}
+body{
+    font-family:'Roboto', sans-serif;
+    color:#333;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+
+a{
+    color:$mainOrange;
+}
